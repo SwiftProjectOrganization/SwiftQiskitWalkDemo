@@ -34,9 +34,7 @@
           ],
         },
       ],
-    },
-    { "kind": "group", "path": "Packages" },
-    {
+    }, {
       "kind": "group",
       "name": "Products",
       "children": [

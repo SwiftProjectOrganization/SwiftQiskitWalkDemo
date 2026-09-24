@@ -10,6 +10,15 @@
       "Base",
     ],
   },
+  "packages": [
+    {
+      "kind": "remote",
+      "repository": "https://github.com/SwiftProjectOrganization/SwiftQiskit.git",
+      "version": {
+        "up-to-next-minor-version": "0.1.0",
+      },
+    },
+  ],
   "files": [
     {
       "kind": "folder",
@@ -25,13 +34,9 @@
           ],
         },
       ],
-    }, {
-      "kind": "group",
-      "path": "Packages",
-      "children": [
-        { "path": "../SwiftQiskit" },
-      ],
-    }, {
+    },
+    { "kind": "group", "path": "Packages" },
+    {
       "kind": "group",
       "name": "Products",
       "children": [
@@ -52,6 +57,10 @@
       ],
       "package-product-members": [
         {
+          "product-name": "SwiftQiskit",
+          "build-phase": { "build-phase": "frameworks" },
+        }, {
+          "package": "SwiftQiskit",
           "product-name": "SwiftQiskit",
           "build-phase": { "build-phase": "frameworks" },
         },

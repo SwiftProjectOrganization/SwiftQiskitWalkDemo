@@ -15,7 +15,7 @@
       "kind": "remote",
       "repository": "https://github.com/SwiftProjectOrganization/SwiftQiskit.git",
       "version": {
-        "up-to-next-minor-version": "0.1.0",
+        "up-to-next-major-version": "0.1.0",
       },
     },
   ],

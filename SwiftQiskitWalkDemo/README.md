@@ -34,7 +34,3 @@ ported from `SwiftQiskit/Playgrounds.playground/Pages/22Walk.xcplaygroundpage`.
 5. Update `AlgorithmTests` to check the new algorithm's invariants — usually the same
    assertions the playground page's own "Expected:" comments describe.
 
-## Requirement: sibling checkout
-
-This project references the `SwiftQiskit` package at the relative path `../SwiftQiskit` — it
-must sit next to a `SwiftQiskit` checkout, exactly like `SwiftQiskitApp` itself.

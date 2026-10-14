@@ -1,7 +1,7 @@
 # SwiftQiskitWalkDemo
 
 Generated from the **Quantum Algorithm App** Xcode template. A multiplatform SwiftUI app
-linked to the local `SwiftQiskit` package, prefilled with a discrete-time quantum walk —
+linked to the `SwiftQiskit` package, prefilled with a discrete-time quantum walk —
 ported from `SwiftQiskit/Playgrounds.playground/Pages/22Walk.xcplaygroundpage`.
 
 ## Layout
